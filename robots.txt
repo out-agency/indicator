@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /
+Sitemap: http://indicator.tilda.ws/sitemap.xml
+Host: indicator.tilda.ws

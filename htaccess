@@ -1,0 +1,39 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page9626543.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^blog$ page9651073.html [NC]
+RewriteRule ^blog/$ page9651073.html [NC]
+
+RewriteRule ^content-1$ page9668703.html [NC]
+RewriteRule ^content-1/$ page9668703.html [NC]
+
+RewriteRule ^header$ page9668782.html [NC]
+RewriteRule ^header/$ page9668782.html [NC]
+
+RewriteRule ^footer$ page9668838.html [NC]
+RewriteRule ^footer/$ page9668838.html [NC]
+
+RewriteRule ^content-2$ page9671782.html [NC]
+RewriteRule ^content-2/$ page9671782.html [NC]
+
+RewriteRule ^content-3$ page9671788.html [NC]
+RewriteRule ^content-3/$ page9671788.html [NC]
+
+RewriteRule ^content-4$ page9671791.html [NC]
+RewriteRule ^content-4/$ page9671791.html [NC]
+
+RewriteRule ^content-5$ page9671793.html [NC]
+RewriteRule ^content-5/$ page9671793.html [NC]
+
+RewriteRule ^content-6$ page9671795.html [NC]
+RewriteRule ^content-6/$ page9671795.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6564-6134-4637-a664-623566353538/Favicon.ico [R=302,L]
+

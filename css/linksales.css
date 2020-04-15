@@ -1,0 +1,248 @@
+<!--
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top:30px;
+    margin-bottom:80px;
+}
+
+a {color:#005d93; text-decoration:none; border-bottom:0.5px solid;}
+a:visited {color:#617586;}
+a:hover {color:#1a9ae8;}
+a:active {color:#007dd5;}
+
+
+
+h1 {
+    font-family:'Ubuntu',apple-system,SF UI Display,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif, arial;
+    font-size:14px;
+    letter-spacing:0.18em;
+    font-weight:normal;
+    text-transform: uppercase;
+    line-height:2.0em;
+}
+
+table {
+    font-family:SF UI Display,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Helvetica Neue,sans-serif,arial;
+    font-weight:normal;
+    max-width:1600;
+    font-size:36px;
+    line-height: 1.3;
+    border:none;
+    margin:0;
+    padding:0;
+    border-spacing:0;
+    border-collapse:collapse;
+}
+
+p {
+    margin:0;
+    padding-top:0;
+    padding-bottom:15;
+    border:0;
+    border-spacing:0;
+    border-collapse:collapse;
+}
+
+
+.menu {
+    font-family:SF UI Display,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Helvetica Neue,sans-serif,arial;
+    font-weight:normal;
+    font-size:14px;
+    letter-spacing:0.18em;
+    text-transform: uppercase;
+    line-height:2.0em;
+    margin: 0 auto;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+
+.box{
+    background-color:#ffffff;
+    font-family:minion pro, times, times new roman;
+    font-weight:normal;
+    font-size:36px;
+    line-height:1.3em;
+    margin: 0 auto;
+    padding-top:0;
+    padding-bottom:0;
+    border:0;
+}
+
+.title{
+    background-color:#ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold;
+    font-size:42px;
+    line-height:1.3em;
+    margin: 0 auto;
+    padding-top:0;
+    padding-bottom:0;
+    border:0;
+}
+
+.text{
+    background-color:#ffffff;
+    font-family:minion pro, times, times new roman;
+    font-weight:normal;
+    font-size:36px;
+    line-height:1.3em;
+    margin:0;
+    padding-top:0;
+    padding-bottom:15;
+}
+
+.phone{
+    background-color:#ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:normal;
+    font-size:110px;
+    line-height:1.3em;
+    margin:0;
+    padding-top:0;
+    padding-bottom:15;
+}
+
+.sign {
+    font-family:SF UI Display,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Helvetica Neue,sans-serif,arial;
+    font-size:11px;
+    letter-spacing:0.04em;
+    font-weight:normal;
+    line-height:2.0em;
+    padding-top:5px;
+    padding-bottom:0;
+    text-align:right;
+}
+
+
+.main_img {
+    display:block;
+}
+
+
+.data {
+    font-family:SF UI Display,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Helvetica Neue,sans-serif,arial;
+    font-weight:normal;
+    font-size:11px;
+    letter-spacing:0.04em;
+    padding-top:90;
+    padding-bottom:0;
+    max-width:1300;
+}
+
+.capitals {
+    text-transform:uppercase;
+    font-size:0.8em;
+    letter-spacing:0.12em;
+    font-weight:500;
+    line-height: 1.4em;
+}
+
+.jouele-control-text {
+    font-family:SF UI Display,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Helvetica Neue,sans-serif,arial;
+    font-weight:normal;
+    font-size:14px;
+    letter-spacing:0.04em;
+    padding-left:3%;
+    padding-right:3%;
+    text-align:left;
+    max-width:1300;
+}
+
+.img {
+    font-family:SF UI Display,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Helvetica Neue,sans-serif,arial;
+    font-weight:normal;
+    font-size:11px;
+    letter-spacing:0.04em;
+    padding-top:0;
+    padding-bottom:0;
+    text-align:left;
+    max-width:1300;
+}
+
+.e404 {
+    font-family:SF UI Display,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Helvetica Neue,sans-serif,arial;
+    color: #dee0e7;
+    font-size:8.0em;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+@media (max-width:992px) {
+    .box {
+        font-size:26px;
+    }
+
+    .text {
+        font-size:26px;
+    }
+
+    .menu {
+        font-size:12px;
+        line-height:2.5em;
+    }
+
+    .data {
+        font-size:10px;
+        letter-spacing:0.1em;
+        padding-top:50;
+    }
+
+    .sign {
+        font-size:9px;
+        line-height:2.5em;
+    }
+
+    .phone{
+        font-size:84px;
+    }
+
+    .title{
+        font-size:36px;
+    }
+}
+
+@media (max-width:767px) {
+    .box {
+        font-size:20px;
+    }
+
+    .text {
+        font-size:20px;
+    }
+
+    .menu {
+        font-size:9px;
+        line-height:2.5em;
+    }
+
+    .data {
+        font-size:8px;
+        letter-spacing:0.1em;
+        padding-top:50;
+    }
+
+    .sign {
+        font-size:9px;
+        line-height:2.5em;
+    }
+
+    .phone{
+        font-size:38px;
+    }
+
+    .title{
+        font-size:28px;
+    }
+}
